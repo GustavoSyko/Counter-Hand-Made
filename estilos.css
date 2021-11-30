@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    background: radial-gradient(rgba(77, 41, 110, 0.979), rgba(39, 102, 72, 0.664))
+}
+
+h1 {
+    padding: 20px;
+}
+
+.container {
+    height: 400px;
+    width: 200px;
+    background: black;
+}
