@@ -10,11 +10,29 @@
 </head>
 
 <body>
-    <h1>Counter</h1>
+
     <div class="container">
+        <h1>Counter</h1>
+
+        <button class="menos" onclick="menos()">-</button>
+        <button class="zerar" onclick="zerar()">Zerar</button>
+        <button class="mais" onclick="mais()">+</button>
+
 
 
     </div>
+    <h2 class="resultado">0</h2>
+
+    <script>
+        let menos = document.querySelector('button.menos')
+        let mais = document.querySelector('button.mais')
+        let zerar = document.querySelector('button.zerar')
+        const resultado = document.querySelector('h2.resultado').innerHTML
+
+        function menos() {
+
+        }
+    </script>
 </body>
 
 </html>

@@ -11,12 +11,19 @@ body {
     background: radial-gradient(rgba(77, 41, 110, 0.979), rgba(39, 102, 72, 0.664))
 }
 
-h1 {
+.container {
+    text-align: center;
+    box-sizing: border-box;
     padding: 20px;
+    height: 350px;
+    width: 350px;
+    background: black;
+    border-radius: 9px;
+    border: solid rgb(117, 245, 117);
+    border-width: 2px;
 }
 
-.container {
-    height: 400px;
-    width: 200px;
-    background: black;
+button {
+    width: 50px;
+    height: 25px;
 }
